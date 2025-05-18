@@ -1,0 +1,45 @@
+/* Global CSS Variables */
+:root {
+  /* Default spacing */
+  --spacing-unit: 1rem;
+  --spacing-xs: calc(var(--spacing-unit) * 0.25);
+  --spacing-sm: calc(var(--spacing-unit) * 0.5);
+  --spacing-md: var(--spacing-unit);
+  --spacing-lg: calc(var(--spacing-unit) * 1.5);
+  --spacing-xl: calc(var(--spacing-unit) * 2);
+
+  /* Default border radius */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-xl: 1rem;
+
+  /* Default padding */
+  --padding-unit: 1rem;
+  --padding-xs: calc(var(--padding-unit) * 0.25);
+  --padding-sm: calc(var(--padding-unit) * 0.5);
+  --padding-md: var(--padding-unit);
+  --padding-lg: calc(var(--padding-unit) * 1.5);
+  --padding-xl: calc(var(--padding-unit) * 2);
+
+  /* Default font sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+
+  /* Default line heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Default margins */
+  --margin-unit: 1rem;
+  --margin-xs: calc(var(--margin-unit) * 0.25);
+  --margin-sm: calc(var(--margin-unit) * 0.5);
+  --margin-md: var(--margin-unit);
+  --margin-lg: calc(var(--margin-unit) * 1.5);
+  --margin-xl: calc(var(--margin-unit) * 2);
+} 
